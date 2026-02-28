@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- XML declaration (version + character encoding) -->
+
 <project xmlns="http://www.netbeans.org/ns/project/1">
+    <!-- Root element of NetBeans project configuration -->
+
     <type>org.netbeans.modules.java.j2seproject</type>
+    <!-- This defines the project type → Java SE project -->
+
     <configuration>
+        <!-- Contains project settings -->
+
         <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
+            <!-- Java SE specific configuration -->
+
             <name>ISP</name>
+            <!-- Project name shown in NetBeans -->
+
             <source-roots>
+                <!-- Folder containing main source code -->
                 <root id="src.dir"/>
+                <!-- Usually refers to the "src" folder -->
             </source-roots>
+
             <test-roots>
+                <!-- Folder containing test files -->
                 <root id="test.src.dir"/>
+                <!-- Usually refers to the "test" folder -->
             </test-roots>
+
         </data>
     </configuration>
 </project>
